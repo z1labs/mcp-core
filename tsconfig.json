@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "src",
+    "incremental": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": false,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "useUnknownInCatchVariables": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": false, 
+    "noUnusedParameters": false 
+  },
+  "exclude": ["node_modules", "dist", "scripts", "bible-dataset.json", "bibles"],
+  "include": ["**/*.ts", "**/*.json", "src/modules/database/models",  "global.d.ts"],
+
+}

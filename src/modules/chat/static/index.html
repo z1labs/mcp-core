@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat UI</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    /* Chat container styling */
+    .chat-container {
+      width: 100%;
+      max-width: 400px;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+
+    /* Messages area */
+    .messages {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .message {
+      padding: 10px;
+      border-radius: 15px;
+      margin: 5px 0;
+      max-width: 75%;
+      word-wrap: break-word;
+    }
+
+    .message.user {
+      align-self: flex-end;
+      background-color: #DCF8C6;
+    }
+
+    .message.bot {
+      align-self: flex-start;
+      background-color: #ECECEC;
+    }
+
+    /* Input area */
+    .input-container {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+    }
+
+    .input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #ddd;
+      outline: none;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+    .send-button {
+      padding: 10px 15px;
+      border-radius: 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="messages" id="messages"></div>
+    <div class="input-container">
+      <input type="text" id="chatInput" class="input" placeholder="Type a message..." />
+      <button onclick="sendMessage()" class="send-button">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const messagesContainer = document.getElementById("messages");
+    const chatInput = document.getElementById("chatInput");
+
+    function addMessage(text, sender) {
+      const messageDiv = document.createElement("div");
+      messageDiv.className = `message ${sender}`;
+      messageDiv.textContent = text;
+      messagesContainer.appendChild(messageDiv);
+      messagesContainer.scrollTop = messagesContainer.scrollHeight; // Scroll to the bottom
+    }
+
+    async function sendMessage() {
+      const messageText = chatInput.value.trim();
+      if (!messageText) return;
+
+      // Add user's message to the chat
+      addMessage(messageText, "user");
+      chatInput.value = "";
+
+      try {
+        // Send message to the backend
+        const response = await fetch("/chat/send-message", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ userId: "123", content: messageText }),
+        });
+        const data = await response.json();
+
+        // Add bot's response to the chat
+        addMessage(data.reply, "bot");
+      } catch (error) {
+        console.error("Error sending message:", error);
+        addMessage("Error: Could not reach the server.", "bot");
+      }
+    }
+
+    // Send message on Enter key press
+    chatInput.addEventListener("keydown", function (event) {
+      if (event.key === "Enter") {
+        sendMessage();
+      }
+    });
+  </script>
+</body>
+</html>
