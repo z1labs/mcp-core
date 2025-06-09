@@ -1,0 +1,794 @@
+[
+  {
+    "id": "kava",
+    "community_id": 2222,
+    "name": "Kava",
+    "native_token_id": "kava",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/kava/b26bf85a1a817e409f9a3902e996dc21.png",
+    "wrapped_token_id": "0xc86c7c0efbd6a49b35e8714c5f59d99de09a225b",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "sonic",
+    "community_id": 146,
+    "name": "Sonic",
+    "native_token_id": "sonic",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/sonic/8ba4d8395618ec1329ea7142b0fde642.png",
+    "wrapped_token_id": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "abs",
+    "community_id": 2741,
+    "name": "Abstract",
+    "native_token_id": "abs",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/abs/c59200aadc06c79d7c061cfedca85c38.png",
+    "wrapped_token_id": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "zero",
+    "community_id": 543210,
+    "name": "ZER\u03f4",
+    "native_token_id": "zero",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/zero/d9551d98b98482204b93544f90b43985.png",
+    "wrapped_token_id": "0xac98b49576b1c892ba6bfae08fe1bb0d80cf599c",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "taiko",
+    "community_id": 167000,
+    "name": "Taiko",
+    "native_token_id": "taiko",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/taiko/7723fbdb38ef181cd07a8b8691671e6b.png",
+    "wrapped_token_id": "0xa51894664a773981c6c112c43ce576f315d5b1b6",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "blast",
+    "community_id": 81457,
+    "name": "Blast",
+    "native_token_id": "blast",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/blast/15132294afd38ce980639a381ee30149.png",
+    "wrapped_token_id": "0x4300000000000000000000000000000000000004",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "ink",
+    "community_id": 57073,
+    "name": "Ink",
+    "native_token_id": "ink",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/ink/af5b553a5675342e28bdb794328e8727.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "plume",
+    "community_id": 98866,
+    "name": "Plume",
+    "native_token_id": "plume",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/plume/f74d0d202dd8af7baf6940864ee79006.png",
+    "wrapped_token_id": "0xea237441c92cae6fc17caaf9a7acb3f953be4bd1",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "celo",
+    "community_id": 42220,
+    "name": "Celo",
+    "native_token_id": "celo",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/celo/faae2c36714d55db1d7a36aba5868f6a.png",
+    "wrapped_token_id": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "pze",
+    "community_id": 1101,
+    "name": "Polygon zkEVM",
+    "native_token_id": "pze",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/pze/a2276dce2d6a200c6148fb975f0eadd3.png",
+    "wrapped_token_id": "0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "duck",
+    "community_id": 5545,
+    "name": "DuckChain",
+    "native_token_id": "duck",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/duck/b0b13c10586f03bcfc12358c48a22c95.png",
+    "wrapped_token_id": "0x7f9308e8d724e724ec31395f3af52e0593bb2e3f",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "hyper",
+    "community_id": 999,
+    "name": "HyperEVM",
+    "native_token_id": "hyper",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/hyper/0b3e288cfe418e9ce69eef4c96374583.png",
+    "wrapped_token_id": "0x5555555555555555555555555555555555555555",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "astar",
+    "community_id": 592,
+    "name": "Astar",
+    "native_token_id": "astar",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/astar/398c7e0014bdada3d818367a7273fabe.png",
+    "wrapped_token_id": "0xaeaaf0e2c81af264101b9129c00f4440ccf0f720",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "linea",
+    "community_id": 59144,
+    "name": "Linea",
+    "native_token_id": "linea",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/linea/32d4ff2cf92c766ace975559c232179c.png",
+    "wrapped_token_id": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "dfk",
+    "community_id": 53935,
+    "name": "DFK",
+    "native_token_id": "dfk",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/dfk/233867c089c5b71be150aa56003f3f7a.png",
+    "wrapped_token_id": "0xccb93dabd71c8dad03fc4ce5559dc3d89f67a260",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "doge",
+    "community_id": 2000,
+    "name": "Dogechain",
+    "native_token_id": "doge",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/doge/2538141079688a7a43bc22c7b60fb45f.png",
+    "wrapped_token_id": "0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "lens",
+    "community_id": 232,
+    "name": "Lens",
+    "native_token_id": "lens",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/lens/d41e14ba300d526518fb8ad20714685b.png",
+    "wrapped_token_id": "0x6bdc36e20d267ff0dd6097799f82e78907105e2f",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "btr",
+    "community_id": 200901,
+    "name": "Bitlayer",
+    "native_token_id": "btr",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/btr/78ff16cf14dad73c168a70f7c971e401.png",
+    "wrapped_token_id": "0xff204e2681a6fa0e2c3fade68a1b28fb90e4fc5f",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "wemix",
+    "community_id": 1111,
+    "name": "WEMIX",
+    "native_token_id": "wemix",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/wemix/d1ba88d1df6cca0b0cb359c36a09c054.png",
+    "wrapped_token_id": "0x7d72b22a74a216af4a002a1095c8c707d6ec1c5f",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "chiliz",
+    "community_id": 88888,
+    "name": "Chiliz",
+    "native_token_id": "chiliz",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/chiliz/548bc261b49eabea7227832374e1fcb0.png",
+    "wrapped_token_id": "0x677f7e16c7dd57be1d4c8ad1244883214953dc47",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "world",
+    "community_id": 480,
+    "name": "World Chain",
+    "native_token_id": "world",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/world/3e8c6af046f442cf453ce79a12433e2f.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "scrl",
+    "community_id": 534352,
+    "name": "Scroll",
+    "native_token_id": "scrl",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/scrl/1fa5c7e0bfd353ed0a97c1476c9c42d2.png",
+    "wrapped_token_id": "0x5300000000000000000000000000000000000004",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "itze",
+    "community_id": 13371,
+    "name": "Immutable zkEVM",
+    "native_token_id": "itze",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/itze/ce3a511dc511053b1b35bb48166a5d39.png",
+    "wrapped_token_id": "0x3a0c2ba54d6cbd3121f01b96dfd20e99d1696c9d",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "op",
+    "community_id": 10,
+    "name": "OP",
+    "native_token_id": "op",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/op/68bef0c9f75488f4e302805ef9c8fc84.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "reya",
+    "community_id": 1729,
+    "name": "Reya",
+    "native_token_id": "reya",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/reya/20d71aad4279c33229297da1f00d8ae1.png",
+    "wrapped_token_id": "",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "orderly",
+    "community_id": 291,
+    "name": "Orderly",
+    "native_token_id": "orderly",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/orderly/aedf85948240dddcf334205794d2a6c9.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "klay",
+    "community_id": 8217,
+    "name": "Kaia",
+    "native_token_id": "klay",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png",
+    "wrapped_token_id": "0xe4f05a66ec68b54a58b17c22107b02e0232cc817",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "eth",
+    "community_id": 1,
+    "name": "Ethereum",
+    "native_token_id": "eth",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/eth/42ba589cd077e7bdd97db6480b0ff61d.png",
+    "wrapped_token_id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "hsk",
+    "community_id": 177,
+    "name": "HashKey",
+    "native_token_id": "hsk",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/hsk/3f35eb1691403fe4eae7a1d1c45b704c.png",
+    "wrapped_token_id": "0xb210d2120d57b758ee163cffb43e73728c471cf1",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "rari",
+    "community_id": 1380012617,
+    "name": "RARI",
+    "native_token_id": "rari",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/rari/67fc6abba5cfc6bb3a57bb6afcf5afee.png",
+    "wrapped_token_id": "0xf037540e51d71b2d2b1120e8432ba49f29edfbd0",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "karak",
+    "community_id": 2410,
+    "name": "Karak",
+    "native_token_id": "karak",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/karak/a9e47f00f6eeb2c9cc8f9551cff5fe68.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "opbnb",
+    "community_id": 204,
+    "name": "opBNB",
+    "native_token_id": "opbnb",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/opbnb/07e2e686e363a842d0982493638e1285.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "mode",
+    "community_id": 34443,
+    "name": "Mode",
+    "native_token_id": "mode",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/mode/466e6e12f4fd827f8f497cceb0601a5e.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "zeta",
+    "community_id": 7000,
+    "name": "ZetaChain",
+    "native_token_id": "zeta",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/zeta/d0e1b5e519d99c452a30e83a1263d1d0.png",
+    "wrapped_token_id": "0x5f0b1a82749cb4e2278ec87f8bf6b618dc71a8bf",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "flr",
+    "community_id": 14,
+    "name": "Flare",
+    "native_token_id": "flr",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/flr/9ee03d5d7036ad9024e81d55596bb4dc.png",
+    "wrapped_token_id": "0x1d80c49bbbcd1c0911346656b529df9e5c2f783d",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "morph",
+    "community_id": 2818,
+    "name": "Morph",
+    "native_token_id": "morph",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/morph/2b5255a6c3a36d4b39e1dea02aa2f097.png",
+    "wrapped_token_id": "0x5300000000000000000000000000000000000011",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "lisk",
+    "community_id": 1135,
+    "name": "Lisk",
+    "native_token_id": "lisk",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/lisk/4d4970237c52104a22e93993de3dcdd8.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "b2",
+    "community_id": 223,
+    "name": "B\u00b2",
+    "native_token_id": "b2",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/b2/6ca6c8bc33af59c5b9273a2b7efbd236.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "iotx",
+    "community_id": 4689,
+    "name": "IoTeX",
+    "native_token_id": "iotx",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/iotx/d3be2cd8677f86bd9ab7d5f3701afcc9.png",
+    "wrapped_token_id": "0xa00744882684c3e4747faefd68d283ea44099d03",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "merlin",
+    "community_id": 4200,
+    "name": "Merlin",
+    "native_token_id": "merlin",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/merlin/458e4686dfb909ba871bd96fe45417a8.png",
+    "wrapped_token_id": "0xf6d226f9dc15d9bb51182815b320d3fbe324e1ba",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "story",
+    "community_id": 1514,
+    "name": "Story",
+    "native_token_id": "story",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/story/d2311c0952f9801e0d42e3b87b4bd755.png",
+    "wrapped_token_id": "0x1514000000000000000000000000000000000000",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "avax",
+    "community_id": 43114,
+    "name": "Avalanche",
+    "native_token_id": "avax",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/avax/4d1649e8a0c7dec9de3491b81807d402.png",
+    "wrapped_token_id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "sei",
+    "community_id": 1329,
+    "name": "Sei",
+    "native_token_id": "sei",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/sei/34ddf58f678be2db5b2636b59c9828b5.png",
+    "wrapped_token_id": "0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "rsk",
+    "community_id": 30,
+    "name": "Rootstock",
+    "native_token_id": "rsk",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/rsk/ff47def89fba98394168bf5f39920c8c.png",
+    "wrapped_token_id": "0x542fda317318ebf1d3deaf76e0b632741a7e677d",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "tlos",
+    "community_id": 40,
+    "name": "Telos EVM",
+    "native_token_id": "tlos",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/tlos/6191b8e0b261536044fc70ba746ba2c9.png",
+    "wrapped_token_id": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "gravity",
+    "community_id": 1625,
+    "name": "Gravity",
+    "native_token_id": "gravity",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/gravity/fa9a1d29f671b85a653f293893fa27e3.png",
+    "wrapped_token_id": "0xbb859e225ac8fb6be1c7e38d87b767e95fef0ebd",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "ron",
+    "community_id": 2020,
+    "name": "Ronin",
+    "native_token_id": "ron",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/ron/6e0f509804bc83bf042ef4d674c1c5ee.png",
+    "wrapped_token_id": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "era",
+    "community_id": 324,
+    "name": "zkSync Era",
+    "native_token_id": "era",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/era/2cfcd0c8436b05d811b03935f6c1d7da.png",
+    "wrapped_token_id": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "ape",
+    "community_id": 33139,
+    "name": "ApeChain",
+    "native_token_id": "ape",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/ape/290d3884861ae5e09394c913f788168d.png",
+    "wrapped_token_id": "0x48b62137edfa95a428d35c09e44256a739f6b557",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "xdai",
+    "community_id": 100,
+    "name": "Gnosis Chain",
+    "native_token_id": "xdai",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/xdai/43c1e09e93e68c9f0f3b132976394529.png",
+    "wrapped_token_id": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "bsc",
+    "community_id": 56,
+    "name": "BNB Chain",
+    "native_token_id": "bsc",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/bsc/bc73fa84b7fc5337905e527dadcbc854.png",
+    "wrapped_token_id": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "dbk",
+    "community_id": 20240603,
+    "name": "DBK Chain",
+    "native_token_id": "dbk",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/dbk/1255de5a9316fed901d14c069ac62f39.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "fuse",
+    "community_id": 122,
+    "name": "Fuse",
+    "native_token_id": "fuse",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/fuse/7a21b958761d52d04ff0ce829d1703f4.png",
+    "wrapped_token_id": "0x0be9e53fd7edac9f859882afdda116645287c629",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "shib",
+    "community_id": 109,
+    "name": "Shibarium",
+    "native_token_id": "shib",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/shib/4ec79ed9ee4988dfdfc41e1634a447be.png",
+    "wrapped_token_id": "0x213c25900f365f1be338df478cd82bef7fd43f85",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "base",
+    "community_id": 8453,
+    "name": "Base",
+    "native_token_id": "base",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/base/ccc1513e4f390542c4fb2f4b88ce9579.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "soneium",
+    "community_id": 1868,
+    "name": "Soneium",
+    "native_token_id": "soneium",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/soneium/35014ebaa414b336a105ff2115ba2116.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "bera",
+    "community_id": 80094,
+    "name": "Berachain",
+    "native_token_id": "bera",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/bera/89db55160bb8bbb19464cabf17e465bc.png",
+    "wrapped_token_id": "0x6969696969696969696969696969696969696969",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "mobm",
+    "community_id": 1284,
+    "name": "Moonbeam",
+    "native_token_id": "mobm",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/mobm/fcfe3dee0e55171580545cf4d4940257.png",
+    "wrapped_token_id": "0xacc15dc74880c9944775448304b263d191c6077f",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "zora",
+    "community_id": 7777777,
+    "name": "Zora",
+    "native_token_id": "zora",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/zora/de39f62c4489a2359d5e1198a8e02ef1.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "canto",
+    "community_id": 7700,
+    "name": "Canto",
+    "native_token_id": "canto",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/canto/47574ef619e057d2c6bbce1caba57fb6.png",
+    "wrapped_token_id": "0x826551890dc65655a0aceca109ab11abdbd7a07b",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "zircuit",
+    "community_id": 48900,
+    "name": "Zircuit",
+    "native_token_id": "zircuit",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/zircuit/0571a12255432950da5112437058fa5b.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "croze",
+    "community_id": 388,
+    "name": "Cronos zkEVM",
+    "native_token_id": "croze",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/croze/e9572bb5f00a04dd2e828dae75456abe.png",
+    "wrapped_token_id": "0xc1bf55ee54e16229d9b369a5502bfe5fc9f20b6d",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "core",
+    "community_id": 1116,
+    "name": "CORE",
+    "native_token_id": "core",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/core/ccc02f660e5dd410b23ca3250ae7c060.png",
+    "wrapped_token_id": "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "mnt",
+    "community_id": 5000,
+    "name": "Mantle",
+    "native_token_id": "mnt",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/mnt/0af11a52431d60ded59655c7ca7e1475.png",
+    "wrapped_token_id": "0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "frax",
+    "community_id": 252,
+    "name": "Fraxtal",
+    "native_token_id": "frax",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/frax/2e210d888690ad0c424355cc8471d48d.png",
+    "wrapped_token_id": "0xfc00000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "oas",
+    "community_id": 248,
+    "name": "Oasys",
+    "native_token_id": "oas",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/oas/61dfecab1ba8a404354ce94b5a54d4b3.png",
+    "wrapped_token_id": "0x5200000000000000000000000000000000000001",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "boba",
+    "community_id": 288,
+    "name": "Boba",
+    "native_token_id": "boba",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/boba/e43d79cd8088ceb3ea3e4a240a75728f.png",
+    "wrapped_token_id": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "hemi",
+    "community_id": 43111,
+    "name": "Hemi",
+    "native_token_id": "hemi",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/hemi/db2e74d52c77b941d01f9beae0767ab6.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "xlayer",
+    "community_id": 196,
+    "name": "X Layer",
+    "native_token_id": "xlayer",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/xlayer/282a62903a4c74a964b704a161d1ba39.png",
+    "wrapped_token_id": "0xe538905cf8410324e03a5a23c1c177a474d59b2b",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "bob",
+    "community_id": 60808,
+    "name": "BOB",
+    "native_token_id": "bob",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/bob/4e0029be99877775664327213a8da60e.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "bb",
+    "community_id": 6001,
+    "name": "BounceBit",
+    "native_token_id": "bb",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/bb/da74a4980f24d870cb43ccd763e0c966.png",
+    "wrapped_token_id": "0xf4c20e5004c6fdcdda920bdd491ba8c98a9c5863",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "uni",
+    "community_id": 130,
+    "name": "Unichain",
+    "native_token_id": "uni",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/uni/7e9011cb7bd0d19deb7727280aa5c8b1.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "arb",
+    "community_id": 42161,
+    "name": "Arbitrum",
+    "native_token_id": "arb",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/arb/854f629937ce94bebeb2cd38fb336de7.png",
+    "wrapped_token_id": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "corn",
+    "community_id": 21000000,
+    "name": "Corn",
+    "native_token_id": "corn",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/corn/2ac7405fee5fdeee5964ba0bcf2216f4.png",
+    "wrapped_token_id": "0xda5ddd7270381a7c2717ad10d1c0ecb19e3cdfb2",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "swell",
+    "community_id": 1923,
+    "name": "SwellChain",
+    "native_token_id": "swell",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/swell/3e98b1f206af5f2c0c2cc4d271ee1070.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "cfx",
+    "community_id": 1030,
+    "name": "Conflux",
+    "native_token_id": "cfx",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/cfx/eab0c7304c6820b48b2a8d0930459b82.png",
+    "wrapped_token_id": "0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "cyber",
+    "community_id": 7560,
+    "name": "Cyber",
+    "native_token_id": "cyber",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/cyber/3a3c0c5da5fa8876c8c338afae0db478.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "nova",
+    "community_id": 42170,
+    "name": "Arbitrum Nova",
+    "native_token_id": "nova",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/nova/06eb2b7add8ba443d5b219c04089c326.png",
+    "wrapped_token_id": "0x722e8bdd2ce80a4422e880164f2079488e115365",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "sophon",
+    "community_id": 50104,
+    "name": "Sophon",
+    "native_token_id": "sophon",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/sophon/edc0479e5fc884b240959449ef44a386.png",
+    "wrapped_token_id": "0x2b1a859de6a55c553520d7780bc5805712b128f9",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "manta",
+    "community_id": 169,
+    "name": "Manta Pacific",
+    "native_token_id": "manta",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/manta/0e25a60b96a29d6a5b9e524be7565845.png",
+    "wrapped_token_id": "0x0dc808adce2099a9f62aa87d9670745aba741746",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "movr",
+    "community_id": 1285,
+    "name": "Moonriver",
+    "native_token_id": "movr",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/movr/cfdc1aef482e322abd02137b0e484dba.png",
+    "wrapped_token_id": "0x98878b06940ae243284ca214f92bb71a2b032b8a",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "matic",
+    "community_id": 137,
+    "name": "Polygon",
+    "native_token_id": "matic",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/matic/52ca152c08831e4765506c9bd75767e8.png",
+    "wrapped_token_id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "ethlink",
+    "community_id": 42793,
+    "name": "Etherlink",
+    "native_token_id": "ethlink",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/ethlink/76f6335793b594863f41df992dc53d22.png",
+    "wrapped_token_id": "0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab",
+    "is_support_pre_exec": false
+  },
+  {
+    "id": "mint",
+    "community_id": 185,
+    "name": "Mint",
+    "native_token_id": "mint",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/mint/86404f93cd4e51eafcc2e244d417c03f.png",
+    "wrapped_token_id": "0x4200000000000000000000000000000000000006",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "vana",
+    "community_id": 1480,
+    "name": "Vana",
+    "native_token_id": "vana",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/vana/b2827795c1556eeeaeb58cb3411d0b15.png",
+    "wrapped_token_id": "0x00eddd9621fb08436d0331c149d1690909a5906d",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "ftm",
+    "community_id": 250,
+    "name": "Fantom",
+    "native_token_id": "ftm",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/ftm/14133435f89637157a4405e954e1b1b2.png",
+    "wrapped_token_id": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "cro",
+    "community_id": 25,
+    "name": "Cronos",
+    "native_token_id": "cro",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/cro/f947000cc879ee8ffa032793808c741c.png",
+    "wrapped_token_id": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+    "is_support_pre_exec": true
+  },
+  {
+    "id": "metis",
+    "community_id": 1088,
+    "name": "Metis",
+    "native_token_id": "metis",
+    "logo_url": "https://static.debank.com/image/chain/logo_url/metis/7485c0a61c1e05fdf707113b6b6ac917.png",
+    "wrapped_token_id": "0x75cb093e4d61d2a2e65d8e0bbb01de8d89b53481",
+    "is_support_pre_exec": true
+  }
+]
